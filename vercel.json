@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/summit-floor34/:path*", "destination": "/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
